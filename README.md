@@ -1,55 +1,82 @@
-# Customer-Churn-Prediction
-Processed and analysed customer Behavior data to build a logistic regression model with 82% accuracy. Identified key churn indicators and presented actionable strategies to reduce customer attrition.
+# 🔁 Customer Churn Prediction – Telco Dataset
 
-📌 Project Objective
+Processed and analyzed customer behavior data to build a machine learning model with **82% accuracy**.  
+Identified key churn indicators and presented actionable insights to reduce customer attrition.
 
-To build a machine learning model that predicts whether a customer is likely to churn based on their behavior and profile data.
+---
 
-🧰 Tools & Technologies
+## 📌 Project Objective
 
-Python
+To build a machine learning model that predicts whether a customer is likely to churn based on their behavioral and profile data.
 
-Pandas, NumPy
+---
 
-Matplotlib, Seaborn
+## 🧰 Tools & Technologies
 
-Scikit-learn
+- **Python**
+- **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
 
-📂 Dataset
+---
 
-Telco Customer Churn Dataset Available on Kaggle
+## 📂 Dataset
 
-🔍 Key Steps
+- **Source:** [Telco Customer Churn Dataset – Kaggle](https://www.kaggle.com/blastchar/telco-customer-churn)
+- Contains demographic info, customer services, billing, and churn status
 
-Data Cleaning: Converted categorical values, handled missing data.
+---
 
-EDA: Explored customer behavior patterns.
+## 🔍 Key Steps
 
-Feature Engineering: One-hot encoded categories and scaled numeric features.
+1. **Data Cleaning**
+   - Converted categorical variables
+   - Handled missing and inconsistent values
 
-Model Building: Used Random Forest Classifier.
+2. **Exploratory Data Analysis (EDA)**
+   - Uncovered patterns related to churn behavior
 
-Evaluation: Measured accuracy, precision, recall, F1-score.
+3. **Feature Engineering**
+   - One-hot encoded categorical features
+   - Scaled numeric variables
 
-📊 Insights
+4. **Model Building**
+   - Trained using **Random Forest Classifier**
 
-MonthlyCharges, Tenure, and Contract Type are key indicators.
+5. **Model Evaluation**
+   - Evaluated using accuracy, precision, recall, F1-score, and confusion matrix
 
-Customers with month-to-month contracts and high monthly charges tend to churn more.
+---
 
-✅ Results
+## 📊 Insights
 
-Model: Random Forest
+- **Monthly Charges**, **Tenure**, and **Contract Type** are strong indicators of churn.
+- Customers on **month-to-month** contracts and with **higher monthly charges** are more likely to churn.
+- Annual contracts help reduce churn rates significantly.
 
-Output: Classification report & confusion matrix
+---
 
-📁 Files
+## ✅ Results
 
-Customer-Churn-Prediction.ipynb – Code
+- **Model:** Random Forest Classifier
+- **Accuracy:** ~82%
+- **Outputs:** Classification report, confusion matrix, feature importance
 
-README.md – Documentation
+---
 
-🙋‍♂️ Author
+## 📁 Files Included
 
-Aadarsh Jaiswal
-Data Science Beginner | Python Enthusiast
+- `Customer-Churn-Prediction.ipynb` – Complete Jupyter notebook with code and outputs  
+- `README.md` – Project documentation
+
+---
+
+## 🙋‍♂️ Author
+
+**Aadarsh Jaiswal**  
+Data Science Enthusiast | Beginner Python Developer  
+📧 [aadarshjaiswal.vns@gmail.com](mailto:aadarshjaiswal.vns@gmail.com)  
+🔗 [LinkedIn](https://linkedin.com/in/aadarsh-jaiswal)  
+💻 [GitHub](https://github.com/aadarshjaiswalvns)
+
+---
+
+> ⭐ *If you find this project useful, feel free to give it a star!*
