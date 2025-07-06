@@ -1,6 +1,6 @@
 # 🔁 Customer Churn Prediction – Telco Dataset
 
-![Graph](https://github.com/aadarshjaiswalvns/Data-Analytics-Portfolio/blob/main/Customer_Churn_Prediction.png) <!-- (Optional: Add a screenshot of your dashboard here) -->
+![Graph](https://github.com/aadarshjaiswalvns/Data-Analytics-Portfolio/blob/main/Customer_Churn_Prediction.png) 
 
 ## 📊 Project Overview
 Processed and analyzed customer behavior data to build a machine learning model with **82% accuracy**.  
